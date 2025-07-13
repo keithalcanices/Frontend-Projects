@@ -2,12 +2,13 @@
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  margin: 0;
 }
 
 header{
   display: flex;
   justify-content: space-between;
-  margin: 10px 20px;
+  margin: 20px 30px;
 }
 
 .brand{
@@ -26,3 +27,31 @@ nav a{
   text-decoration: none;
   color: black;
 }
+
+.main-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 35vh;
+  gap: 18px;
+}
+
+.main-page h1{
+  font-size: 3rem;
+}
+
+.main-page p{
+  font-size: 1rem;
+  color: gray;
+}
+
+.multiple-page{
+  display: flex;
+}
+
+.multiple-page main{
+  width: 100%;
+  border: 1px solid black;
+}
+
