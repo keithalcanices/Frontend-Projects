@@ -28,6 +28,7 @@ nav a{
   color: black;
 }
 
+/* Main Page */
 .main-page{
   display: flex;
   justify-content: center;
@@ -46,6 +47,7 @@ nav a{
   color: gray;
 }
 
+/* Multiple Pages */
 .multiple-page{
   display: flex;
 }
@@ -57,20 +59,19 @@ nav a{
   border-style: solid;
 }
 
-.multiple-page main{
-
+.education-page.footer{
+  border-width: 2px 0 2px 0;
+  border-color: black;
+  border-style: solid;
 }
 
-.multiple-page main a{
-  text-decoration: none;
-  color: black;
-  transition: 200ms;
-}
-
+/*
 .multiple-page main a:hover{
   color: rgb(117, 117, 237);
 }
+*/
 
+/* Projects */
 .projects.header{
   border-width: 2px 0 2px 0;
   border-style: solid;
@@ -88,8 +89,51 @@ nav a{
   padding: 12px 20px;
 }
 
+.projects a{
+  text-decoration: none;
+  color: black;
+}
+
 .page-header{
   font-size: 30px;
   padding: 20px;
+}
+
+/* Work Experience */
+.experience.header{
+  border-width: 2px 0 2px 0;
+  border-style: solid;
+  border-color: black;
+}
+
+.experience{
+  padding: 20px;
+}
+
+.experience p{
+  padding: 10px 0;
+}
+
+.experience a{
+  color: rgb(0, 132, 255);
+  text-decoration: none;
+}
+
+/* Education */
+.education{
+  padding: 0 20px;
+}
+
+.education p{
+  padding-bottom: 10px;
+}
+
+.education ul{
+  padding: 10px 20px;
+}
+
+/* Responsive Design */
+@media all and (orientation: portrait) {
+
 }
 
