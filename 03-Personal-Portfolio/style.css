@@ -52,6 +52,44 @@ nav a{
 
 .multiple-page main{
   width: 100%;
-  border: 1px solid black;
+  border-width:2px 2px 2px 0;
+  border-color: black;
+  border-style: solid;
+}
+
+.multiple-page main{
+
+}
+
+.multiple-page main a{
+  text-decoration: none;
+  color: black;
+  transition: 200ms;
+}
+
+.multiple-page main a:hover{
+  color: rgb(117, 117, 237);
+}
+
+.projects.header{
+  border-width: 2px 0 2px 0;
+  border-style: solid;
+  border-color: black;
+}
+
+.projects.footer{
+  border-width: 0 0 0 0;
+}
+
+.projects{
+  border-width:0 0 2px 0;
+  border-style: solid;
+  border-color: black;
+  padding: 12px 20px;
+}
+
+.page-header{
+  font-size: 30px;
+  padding: 20px;
 }
 
