@@ -65,6 +65,11 @@ nav a{
   border-style: solid;
 }
 
+.page-header{
+  font-size: 30px;
+  padding: 20px;
+}
+
 /*
 .multiple-page main a:hover{
   color: rgb(117, 117, 237);
@@ -92,11 +97,6 @@ nav a{
 .projects a{
   text-decoration: none;
   color: black;
-}
-
-.page-header{
-  font-size: 30px;
-  padding: 20px;
 }
 
 /* Work Experience */
@@ -130,6 +130,51 @@ nav a{
 
 .education ul{
   padding: 10px 20px;
+}
+
+/* Article */
+.box-divider{
+  display: flex;
+}
+
+.reviews{
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin: 0 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.reviews p{
+  padding: 8px 0;
+}
+
+.reviewer{
+  color: gray;
+}
+
+/* Contact Page */
+#contact-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 0;
+  margin-top: 30px;
+  background-color: rgb(244, 244, 244);
+}
+
+#contact-page h1{
+  text-align: center;
+  font-size: 2rem;  
+}
+
+#contact-page form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
 }
 
 /* Responsive Design */
